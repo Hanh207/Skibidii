@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bontiy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-image: url("bonti.jpg");
+            margin: 0 auto;
+            height: 452px;
+            width: 1000px;
+        }
+
+            header h1 {
+                margin: 0;
+            }
+
+        .top-bar {
+            background-color: #333;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+            margin: auto;
+            padding: 0px;
+            border: #FF0000 dotted 1px;
+            width: 1000px;
+        }
+
+            .top-bar span {
+                margin: 0 15px;
+            }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin: auto;
+            padding: 0px;
+            border: #FF0000 dotted 1px;
+            width: 1000px;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 20px;
+            }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+            .sidebar h3 {
+                margin-top: 0;
+            }
+
+            .sidebar ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+                .sidebar ul li {
+                    margin-bottom: 10px;
+                }
+
+                    .sidebar ul li a {
+                        color: #333;
+                        text-decoration: none;
+                    }
+
+        .main-content {
+            width: 75%;
+            padding-left: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .product img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .product h3 {
+                margin: 10px 0;
+            }
+
+            .product p {
+                font-size: 16px;
+                color: #333;
+            }
+
+            .product button {
+                background-color: #ff9900;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                margin-bottom: 15px;
+            }
+
+        footer {
+            background-image:url("anime3.jpg");
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            margin: auto;
+            padding: 100px;
+            border: #FF0000 dotted 1px;
+            width: 900px;
+        }
+
+            footer a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+    </style>
+    
+   
+</head>
+<body>
+    <!-- Top bar -->
+    <div class="top-bar">
+        <span>Tel:0862990711</span>
+        <span>Tiên:0901775414</span>
+        <span>Hoàng Anh:0862990711</span>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1></h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>DANH MỤC SẢN PHẨM</h3>
+            <ul>
+                <li><strong>Nendoroid Nữ</strong></li>
+                <li><a href="#">Mới ra</a></li>
+                <li><a href="#">Hot nhất</a></li>
+                <li><a href="#">Nhiều Lượt mua nhấ</a></li>
+
+                <li><strong>Nendoroid nam</strong></li>
+                <li><a href="#">mới ra</a></li>
+                <li><a href="#">Hot nhất</a></li>
+                <li><a href="#">Nhiều lượt mua nhất</a></li>
+            </ul>
+        </div>
+        <!-- Products -->
+        <div class="main-content">
+            <h2>Sản phẩm mới nhất</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="miku-s.jpg" alt="nendoroid Nakano Miku-S">
+                    <h3>nendoroid Nakano Miku-S</h3>
+                    <p>1.400.000 ₫</p>
+                    <button>Mua hàng</button>
+                </div>
+
+                <div class="product">
+                    <img src="tomoe.png" alt="nendoroid Tomoe">
+                    <h3>nendoroid Tomoe</h3>
+                    <p>1.300.000 ₫</p>
+                    <button>Mua hàng</button>
+                </div>
+
+                <div class="product">
+                    <img src="sora.jpeg" alt="nendoroid Sora">
+                    <h3>nendoroid Sora</h3>
+                    <p>1.200.000 ₫</p>
+                    <button>Mua hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+     
+    </footer>
+</body>
+</html>
